@@ -14,17 +14,17 @@ JUNIT = $(J2OBJC_DISTRIBUTION)/lib/junit-4.10.jar
 MOCKITO = $(J2OBJC_DISTRIBUTION)/lib/mockito-core-1.9.5.jar
 
 
-JAVA_SOURCES = $(shell find $(APP_DIR) -type f -name '*.java')
-OBJECTS = $(patsubst $(APP_DIR)/%.java, $(BUILD_DIR)/%.o, $(JAVA_SOURCES))
-OBJS_SOURCES = $(OBJECTS:.o=.m)
+APP_JAVA_SOURCES = $(shell find $(APP_DIR) -type f -name '*.java')
+APP_OBJECTS = $(patsubst $(APP_DIR)/%.java, $(BUILD_DIR)/%.o, $(APP_JAVA_SOURCES))
+APP_OBJS_SOURCES = $(OBJECTS:.o=.m)
 
-default: translate $(OBJECTS)
+default: translate $(APP_OBJECTS)
 
 clean:
 	@rm -rf $(BUILD_DIR)
 
 translate:
-	$(J2OBJC) -sourcepath $(APP_DIR) -d $(BUILD_DIR) $(JAVA_SOURCES)
+	$(J2OBJC) -sourcepath $(APP_DIR) -d $(BUILD_DIR) $(APP_JAVA_SOURCES)
 
 $(BUILD_DIR)/%.o: $(BUILD_DIR)/%.m
 	$(J2OBJCC) -I$(BUILD_DIR) -c $? -o $@

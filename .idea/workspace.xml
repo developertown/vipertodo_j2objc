@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="12ecefac-e8de-4304-8723-aa1c35b9df86" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Makefile" afterPath="$PROJECT_DIR$/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ViperTodoList.iws" />
@@ -41,6 +40,18 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="AllTests.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/jonnolen/viperj2objc/test/AllTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.25974026" vertical-offset="0" max-vertical-offset="693">
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="viper_todo_list.iml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/viper_todo_list.iml">
           <provider selected="true" editor-type-id="text-editor">
@@ -51,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Makefile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Makefile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Makefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47021943" vertical-offset="0" max-vertical-offset="638">
-              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+            <state vertical-scroll-proportion="-8.054545" vertical-offset="217" max-vertical-offset="855">
+              <caret line="44" column="55" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -118,6 +129,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jonnolen/viperj2objc/ConsoleHelloWorldPrinter.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jonnolen/viperj2objc/test/PrintsHelloWorld.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jonnolen/viperj2objc/PresenterThingaMajig.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jonnolen/viperj2objc/test/AllTests.java" />
         <option value="$PROJECT_DIR$/Makefile" />
       </list>
     </option>
@@ -177,7 +189,28 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Tests">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="viper_todo_list">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/test/java">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com/jonnolen/viperj2objc/test">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -643,9 +676,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Makefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47021943" vertical-offset="0" max-vertical-offset="638">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        <state vertical-scroll-proportion="-8.054545" vertical-offset="217" max-vertical-offset="855">
+          <caret line="44" column="55" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jonnolen/viperj2objc/test/AllTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25974026" vertical-offset="0" max-vertical-offset="693">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

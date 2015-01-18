@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="j2objc_annotations">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/j2objc_annotations.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

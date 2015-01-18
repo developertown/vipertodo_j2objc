@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="j2objc_junit">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/j2objc_junit.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
